@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(214, 214, 214);
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+table {
+    margin-top: 50px;
+}
+
+table tr:hover {
+    background: rgb(100, 100, 100);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 100%;
+    margin: 10px;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+}
+
+/*classe para editar links de edições*/
+.edit {
+    display: flex;
+    justify-content: space-around;
+    
+}
